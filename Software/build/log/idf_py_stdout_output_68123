@@ -1,0 +1,24 @@
+[0/1] Re-running CMake...
+-- Component directory /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/components/inc does not contain a CMakeLists.txt file. No component will be added
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig
+Loading defaults file /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig.defaults...
+/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig.defaults:10 CONFIG_INT_WDT was replaced with CONFIG_ESP_INT_WDT
+/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig.defaults:11 CONFIG_TASK_WDT was replaced with CONFIG_ESP_TASK_WDT
+/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig.defaults:16 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig.defaults:17 CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ
+-- App "software" version: 1
+-- Adding linker script /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Configuring incomplete, errors occurred!
+See also "/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+/home/trngzng/.espressif/tools/cmake/3.24.0/bin/cmake --regenerate-during-build -S/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software -B/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build

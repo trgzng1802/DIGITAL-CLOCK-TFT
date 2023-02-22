@@ -1,0 +1,49 @@
+[0/1] Re-running CMake...
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig
+Loading defaults file /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig.defaults...
+/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig.defaults:10 CONFIG_INT_WDT was replaced with CONFIG_ESP_INT_WDT
+/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig.defaults:11 CONFIG_TASK_WDT was replaced with CONFIG_ESP_TASK_WDT
+/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig.defaults:16 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/sdkconfig.defaults:17 CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ
+-- App "software" version: 1
+-- Adding linker script /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/trngzng/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock components console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/trngzng/esp/esp-idf/components/app_trace /home/trngzng/esp/esp-idf/components/app_update /home/trngzng/esp/esp-idf/components/bootloader /home/trngzng/esp/esp-idf/components/bootloader_support /home/trngzng/esp/esp-idf/components/bt /home/trngzng/esp/esp-idf/components/cmock /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/components /home/trngzng/esp/esp-idf/components/console /home/trngzng/esp/esp-idf/components/cxx /home/trngzng/esp/esp-idf/components/driver /home/trngzng/esp/esp-idf/components/efuse /home/trngzng/esp/esp-idf/components/esp-tls /home/trngzng/esp/esp-idf/components/esp_adc /home/trngzng/esp/esp-idf/components/esp_app_format /home/trngzng/esp/esp-idf/components/esp_common /home/trngzng/esp/esp-idf/components/esp_eth /home/trngzng/esp/esp-idf/components/esp_event /home/trngzng/esp/esp-idf/components/esp_gdbstub /home/trngzng/esp/esp-idf/components/esp_hid /home/trngzng/esp/esp-idf/components/esp_http_client /home/trngzng/esp/esp-idf/components/esp_http_server /home/trngzng/esp/esp-idf/components/esp_https_ota /home/trngzng/esp/esp-idf/components/esp_https_server /home/trngzng/esp/esp-idf/components/esp_hw_support /home/trngzng/esp/esp-idf/components/esp_lcd /home/trngzng/esp/esp-idf/components/esp_local_ctrl /home/trngzng/esp/esp-idf/components/esp_mm /home/trngzng/esp/esp-idf/components/esp_netif /home/trngzng/esp/esp-idf/components/esp_netif_stack /home/trngzng/esp/esp-idf/components/esp_partition /home/trngzng/esp/esp-idf/components/esp_phy /home/trngzng/esp/esp-idf/components/esp_pm /home/trngzng/esp/esp-idf/components/esp_psram /home/trngzng/esp/esp-idf/components/esp_ringbuf /home/trngzng/esp/esp-idf/components/esp_rom /home/trngzng/esp/esp-idf/components/esp_system /home/trngzng/esp/esp-idf/components/esp_timer /home/trngzng/esp/esp-idf/components/esp_wifi /home/trngzng/esp/esp-idf/components/espcoredump /home/trngzng/esp/esp-idf/components/esptool_py /home/trngzng/esp/esp-idf/components/fatfs /home/trngzng/esp/esp-idf/components/freertos /home/trngzng/esp/esp-idf/components/hal /home/trngzng/esp/esp-idf/components/heap /home/trngzng/esp/esp-idf/components/http_parser /home/trngzng/esp/esp-idf/components/idf_test /home/trngzng/esp/esp-idf/components/ieee802154 /home/trngzng/esp/esp-idf/components/json /home/trngzng/esp/esp-idf/components/log /home/trngzng/esp/esp-idf/components/lwip /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/main /home/trngzng/esp/esp-idf/components/mbedtls /home/trngzng/esp/esp-idf/components/mqtt /home/trngzng/esp/esp-idf/components/newlib /home/trngzng/esp/esp-idf/components/nvs_flash /home/trngzng/esp/esp-idf/components/openthread /home/trngzng/esp/esp-idf/components/partition_table /home/trngzng/esp/esp-idf/components/perfmon /home/trngzng/esp/esp-idf/components/protobuf-c /home/trngzng/esp/esp-idf/components/protocomm /home/trngzng/esp/esp-idf/components/pthread /home/trngzng/esp/esp-idf/components/sdmmc /home/trngzng/esp/esp-idf/components/soc /home/trngzng/esp/esp-idf/components/spi_flash /home/trngzng/esp/esp-idf/components/spiffs /home/trngzng/esp/esp-idf/components/tcp_transport /home/trngzng/esp/esp-idf/components/ulp /home/trngzng/esp/esp-idf/components/unity /home/trngzng/esp/esp-idf/components/usb /home/trngzng/esp/esp-idf/components/vfs /home/trngzng/esp/esp-idf/components/wear_levelling /home/trngzng/esp/esp-idf/components/wifi_provisioning /home/trngzng/esp/esp-idf/components/wpa_supplicant /home/trngzng/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build
+[1/19] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[2/19] Performing build step for 'bootloader'
+[1/1] cd /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build/bootloader/esp-idf/esptool_py && /home/trngzng/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/trngzng/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build/bootloader/bootloader.bin
+Bootloader binary size 0x6730 bytes. 0x8d0 bytes (8%) free.
+[3/17] Linking C static library esp-idf/esp_app_format/libesp_app_format.a
+[4/17] cd /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build && /home/trngzng/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/trngzng/esp/esp-idf/components/spiffs/spiffsgen.py 0xf0000 /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/font /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build/storage.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len
+[5/17] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/src/decode_png.c.obj
+[6/17] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/src/decode_jpeg.c.obj
+[7/17] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/src/fontx.c.obj
+[8/17] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/src/pngle.c.obj
+[9/17] Building C object esp-idf/components/CMakeFiles/__idf_components.dir/src/ili9340.c.obj
+[10/17] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[11/17] Linking C static library esp-idf/components/libcomponents.a
+[12/17] Linking C static library esp-idf/main/libmain.a
+[13/17] Generating ld/sections.ld
+[14/17] Building C object CMakeFiles/software.elf.dir/project_elf_src_esp32.c.obj
+[15/17] Linking CXX executable software.elf
+[16/17] Generating binary image from built executable
+esptool.py v4.5.dev2
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build/software.bin
+[17/17] cd /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build/esp-idf/esptool_py && /home/trngzng/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/trngzng/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build/partition_table/partition-table.bin /media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/build/software.bin
+software.bin binary size 0x43ef0 bytes. Smallest app partition is 0x100000 bytes. 0xbc110 bytes (73%) free.

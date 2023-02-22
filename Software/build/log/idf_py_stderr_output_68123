@@ -1,0 +1,12 @@
+Compiler supported targets: xtensa-esp32-elf
+
+CMake Error at /home/trngzng/esp/esp-idf/tools/cmake/component.cmake:313 (message):
+  Include directory
+  '/media/trngzng/Windows/Data/Projects/TFT-DIGITAL-CLOCK-ESP32/Software/components/src/inc'
+  is not a directory.
+Call Stack (most recent call first):
+  /home/trngzng/esp/esp-idf/tools/cmake/component.cmake:481 (__component_add_include_dirs)
+  components/src/CMakeLists.txt:3 (idf_component_register)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
