@@ -12,7 +12,7 @@
 #include "esp_spiffs.h"
 #include "esp_heap_caps.h"
 
-#include "ili9340.h"
+#include "tft.h"
 #include "fontx.h"
 #include "bmpfile.h"
 #include "decode_jpeg.h"
@@ -24,7 +24,7 @@
 #define INTERVAL 400
 #define WAIT vTaskDelay(INTERVAL)
 
-static const char *TAG = "ILI9340";
+static const char *TAG = "TFT";
 
 static void SPIFFS_Directory(char * path) {
 	DIR* dir = opendir(path);
@@ -1306,7 +1306,7 @@ void TouchTest(TFT_t * dev, FontxFile *fx, int width, int height, TickType_t tim
 }
 #endif
 
-void ILI9341(void *pvParameters)
+void TFT(void *pvParameters)
 {
 	// set font file
 	FontxFile fx16G[2];
@@ -1576,5 +1576,5 @@ void app_main(void)
 	}
 
 	SPIFFS_Directory("/spiffs/");
-	xTaskCreate(ILI9341, "ILI9341", 1024*6, NULL, 2, NULL);
+	xTaskCreate(TFT, "TFT", 1024*6, NULL, 2, NULL);
 }
